@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'M PLUS Code Latin', sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    text-align: center;
+    background: url('../images/camera.jpg') 500px 1000px;
+}
+
+h1{
+    color: yellow;
+    left: 0;
+    right: 0;
+    top: 35px;
+    text-align: center;
+    position: absolute;
+    z-index: 999;
+}
+
+#webcam {
+    position: relative;
+    height: 100vh;
+    max-width:600px;
+    width: 100%;
+    margin: 0 auto;
+    background: linear-gradient(blueviolet,coral);
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    h1{
+        top: 55px;
+    }
+}
